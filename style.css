@@ -1,0 +1,39 @@
+body{
+    font-family: sans-serif;
+}
+
+.header{
+    height: 92px;
+    width: 1333px;
+    max-width: 1333px;
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.topNavBar{
+ padding: 10px;   
+}
+
+.topNavBarItem{
+    display: inline;
+    text-align: center;
+    padding: 10px 14px;
+}
+
+.header a{
+    text-decoration: none;
+}
+
+.header a:visited{
+    color: black;
+}
+
+.roundedCornerBorderButton{
+    border-radius: 5px;
+    border-width: 1px;
+    border-style: solid;
+    padding: 14px 24px;
+}
