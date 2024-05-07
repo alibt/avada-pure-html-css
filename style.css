@@ -21,6 +21,15 @@ body{
     font-weight: 500;
 }
 
+.buttonIconLeft{
+    padding-left: 10px;
+}
+.buttonIconRight{
+    padding-right: 10px;
+    width: 22;
+    height: auto;
+}
+
 .topNavBar{
  padding: 10px;   
 }
@@ -54,15 +63,19 @@ body{
 .dropdownContent{
     display: none;
     position: absolute;
-    box-shadow: rgba(0, 0, 0, 0.14) 0px 48px 72px -16px;
     margin-top: 4px;
     padding: 24px 24px 24px 24px;
-
+    border-radius: 10px;
 }
 .dropdown:hover .dropdownContent{
     display: block;
 }
-.headerDropdownCard{
+
+.bannerDropdown{
+    box-shadow: rgba(0, 0, 0, 0.14) 0px 48px 72px -16px;
+
+}
+.bannerDropdownCard{
     width: 376px;
     height: 120px;
     margin-bottom: 12px;
@@ -71,21 +84,68 @@ body{
     display: flex;
     border-radius: 10px;
     border-style: none;
+    box-sizing: border-box;
+
 }
-.headerDropdownCardImage{
+.bannerDropdownCardImage{
     width: 96px;
-    height: 96px;
+    height: auto;
     padding-left: 14px;
     padding-right: 14px;
 }
-.dropdownTitle{
+.bannerDropdownCardTexts{
+    flex-grow: 1;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+
+.bannerDropdownTitle{
     font-size: 24px;
     text-align: start;
+    padding-bottom: 2%;
 }
-.dropdownSubTitle{
+.bannerDropdownSubTitle{
     font-size: 14px;
     text-align: start;
 }
 .beginnerBGColor{
     background-color: #ffe979;
+}
+
+.marketersBGColor{
+    background-color: #b7f598;
+}
+
+.professionalsBGColor{
+    background-color: #7ed5f0;
+}
+
+.listDropdown{
+    padding: 24px 24px 24px 24px;
+    box-shadow: rgba(0, 0, 0, 0.14) 0px 48px 72px -16px;
+}
+
+.listDropdownCard{
+    display: flex;
+    height: 80;
+    width: 300;
+    padding: 16px 20px 16px 20px;
+    margin: 0px 6px 0px 6px ;
+    box-sizing: border-box;
+
+}
+.listDropdownCardText{
+    flex-grow: 1;
+}
+
+.listDropdownTitle{
+    font-size: 18px;
+    text-align: start;
+    padding-bottom: 2%;
+}
+.listDropdownSubTitle{
+    font-size: 14px;
+    text-align: start;
+    padding-left: 32px;
 }
