@@ -1,0 +1,164 @@
+.titleAndCaption{
+    max-width: 700px;
+    text-align: center;
+}
+
+
+
+/* ========================= forth section - footer Section */
+.featuresSection{
+    padding: 144px 30px 62px 30px;
+    display: flex;
+    flex-direction: column;
+    background-color: #FFF9E0;
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.featuresSection .titleAndCaption h2{
+    font-size: 3em;
+    margin: 0px 0px 24px 0px;
+}
+.featuresSection .titleAndCaption p{
+    margin: 0px 0px 24px 0px;
+    color: #414141;
+}
+
+.featuresGridList{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    column-gap: 80px;
+}
+
+.featuresBanner{
+    margin-top: 20px;
+    margin-bottom: 48px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 373px;
+    text-align: center;
+}
+
+.featuresBanner h3{
+    font-size: 1.5em;
+    margin-bottom: 12px;
+    font-weight: 400;
+    margin-top: 0px;
+}
+
+.featuresBanner p{
+    font-size: 1em;
+    color: #575757;
+    line-height: 1.6em;
+}
+
+.featuresBanner img{
+    max-width: 373px;
+    height: auto;
+    margin-bottom: 32px;
+}
+
+/* ========================= second section - Square Bird section */
+
+.websiteCategories{
+    padding: 124px 0px 64px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.websiteCategories h1{
+    font-size: 3em;
+}
+
+.websiteCategories p{
+    font-size: 1.125em;
+    color: #414141;
+}
+.listOfCategories{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.category{
+    margin: 8px 8px 8px 10px;
+    text-decoration: none;
+    color: #282828;
+}
+
+.listOfCategories .roundedCornerBorderButton{
+    border-color: #dfdfdf;
+}
+
+.demo-banner-5{
+    margin-bottom: -100px;
+    z-index: 2;
+}
+/* ========================= first section - Square Bird section */
+
+.initialBannerSection{
+    display: flex;
+    flex-direction: row;
+}
+
+
+.initialBannerSection img{
+    width: 45%;
+    object-fit: cover;
+}
+
+.initialBannerDescription h4{
+    font-size: 1.25em;
+    margin: 0%;
+}
+
+.initialBannerDescription{
+    flex-grow: 1;
+    background-color: #FFE979;
+    display: block;
+    padding: 96px 72px 96px 72px;
+}
+
+
+.initialBannerDescription p{
+    color: #282828;
+    font-size: 1.125em;
+}
+
+.initialBannerDescription h1{
+    color: #282828;
+    font-size: 4em;
+    line-height: 72px;
+}
+
+.initialBannerDescription a{
+    color: white;
+    text-decoration: none;
+    font-size: 1.25em;
+    display: flex;
+    flex-direction: row;
+    width: fit-content;
+    margin-bottom: 32px;
+    margin-right: 23px;
+}
+.initialBannerDescription i{
+    margin-left: 12px;
+}
+.initialBannerDescription .preTitle{
+    font-size: 1.25em;
+}
+
+
+
+
+.initialBannerDescription .roundedCornerBorderButton{
+    background-color: #282828;
+}
