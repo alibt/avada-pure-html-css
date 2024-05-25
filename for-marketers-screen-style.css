@@ -49,9 +49,9 @@
     flex-wrap: nowrap;
     column-gap: 40px;
     align-items: stretch;
-    height: max-content;
     justify-content: center;
     margin-bottom: 96px;
+    height: max-content;
 }
 .supportDocSection .grid .featuresBanner{
     height: 100%;
@@ -120,7 +120,7 @@
 }
 /* ========================= seventh section - avada studio Section */
 .avadaStudio{
-    background-color: #FFF9E0;
+    background-color: rgb(235,255,225);
     width: 100%;
 }
 .avadaStudio .content{
@@ -157,237 +157,201 @@
 .avadaStudio .picture img{
     width: 100%;
 }
-/* ========================= sixth section - setup wizard Section */
 
-.setupWizardSection{
+
+
+/* ========================= fifth section - Launch website Section */
+.launchWebsiteToSellSection{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 100%;
+    text-align: center;
 }
-.setupWizardSection .titleAndCaption h2{
-    font-size: 3em;
-}
-.setupWizardSection .titleAndCaption p{
-    margin: 0px 0px 24px 0px;
-    color: #414141;
-    line-height: 30px;
-    font-size: 1.125em;
-}
-.setupWizardSection .grid{
+.launchWebsiteToSellSection .builderBanner{
     display: flex;
     flex-direction: row;
-    flex-wrap: nowrap;
-    column-gap: 40px;
-    align-items: stretch;
-    justify-content: center;
-    margin-bottom: 96px;
-    height: max-content;
-}
-.setupWizardSection .grid .featuresBanner{
-    height: 100%;
-    width: 33%;
-    padding: 32px;
-    background-color: rgb(251, 251, 251);
-    border-radius: 5px;
-    margin: 20px 0px 20px 0px;
-    height: auto;
-}
-.setupWizardSection .grid .featuresBanner img{
-    width: 100%;
-    height: auto;
-}
-
-/* ========================= sixth section - features grid Section */
-
-.featuresGridSection{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    column-gap: 40px;
-    padding: 0px 30px 72px 30px;
     align-items: center;
     justify-content: center;
+    margin-bottom: 96px;
 }
 
+.launchWebsiteToSellSection .builderBanner .titleAndCaption{
+    text-align: left;
+    margin: 0px 100px 0px 100px;
+    
+}
+.launchWebsiteToSellSection .builderBanner .titleAndCaption h2{
+    font-size: 2em;
+}
+.launchWebsiteToSellSection p{
+    font-size: 1.125em;
+    color: #575757;
+    line-height: 32px;
+}
 
-/* ========================= fifth section - Why Avada Section */
+.launchWebsiteToSellSection .builderBanner img{
+    width: 60%;
+    height: auto;
+    object-fit: contain;
+}
+.launchWebsiteToSellSection .builderBanner a{
+    color: #282828;
+    font-size: 1em;
+    text-decoration: underline;
+}
+.launchWebsiteToSellSection .builderBanner i{
+    margin-left: 10px;
+}
+.launchWebsiteToSellSection .builderBanner a:visited{
+    color: #282828;
+    text-decoration: underline;
+}
 
-.whyAvadaSection{
+/* ========================= forth section - create Fast Section */
+
+.createFastSection{
     display: flex;
     flex-direction: column;
     padding: 96px 30px 48px 30px;
     align-items: center;
 }
-.whyAvadaSection .titleAndCaption h2{
+.createFastSection .titleAndCaption h2{
     font-size: 3em;
     margin: 0px 0px 20px 0px;
 }
-.whyAvadaSection .titleAndCaption p{
+.createFastSection .titleAndCaption p{
     margin: 0px 0px 24px 0px;
     color: #414141;
     line-height: 30px;
     font-size: 1.125em;
 }
+.createFastSection .featuresGrid{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    column-gap: 40px;
+    align-items: stretch;
+    height: max-content;
+    justify-content: center;
+    padding: 48 30px 64px 30px;
+}
+.createFastSection .featuresGrid .featuresBanner{
+    height: 100%;
+    width: 33%;
+    padding: 32px;
+    border-radius: 5px;
+    margin: 20px 0px 20px 0px;
+    height: auto;
+    line-height: 32px;
 
-.number1{
+}
+.createFastSection .featuresGrid .featuresBanner h3{
+    font-size: 1.5em;
+}
+
+.createFastSection .featuresGrid .featuresBanner img{
     width: 100%;
-    display: flex;
-    flex-direction: row;
-    
-}
-.numberOneBanner{
-    display: flex;
-    flex-direction: column;
-    max-width: 50%;
-    min-width: 30%;
-    background-color: #FFE979;
-    border-radius: 5px;
-    text-align: center;
-    padding: 24px 24px 24px 24px;
-    margin: 0px 24px 0px 24px;
-}
-.numberOneBanner h1{
-    font-size: 8em;
-    margin: 0px;
-}
-.numberOneBanner p{
-    font-size: 1.125em;
-    color: #414141;
-}
-.numberOneBanner .buyerNumberLabel{
-    background-color: white;
-    color: #282828;
-    border-radius: 5px;
-    margin: 24px 0px 0px 0px;
-    padding: 12px 10px 12px 10px;
-}
-.noCodingBanner{
-    display: flex;
-    flex-direction: row;
-    flex-grow: 1;
-    background-color: rgb(251, 251, 251);
-    padding: 48px 64px 48px 64px;
-    margin: 0px 25px 0px 25px;
-    border-radius: 5px;
-}
-.noCodingBanner .titleAndCaption{
-    text-align: left;
-}
-.noCodingBanner .titleAndCaption h3{
-    font-size: 2em;
-    margin: 0px 0px 20px 0px;
-}
-.noCodingBanner .titleAndCaption h3{
-    font-size: 2em;
-}
-.noCodingBanner img{
     height: auto;
     object-fit: contain;
-    width: 60%;
-    margin: 0px 14px 0px 14px;
+    margin-bottom: 20px;
 }
 
 
-/* ========================= forth section - features Section */
-.featuresSection{
-    padding: 144px 0px 62px 0px;
-    display: flex;
-    flex-direction: column;
-    background-color: #FFF9E0;
+/* ========================= third section - Design Freedom section */
+
+.designFreedomSection{
+    padding: 96px 0px 96px 0px;
+    background-color: rgb(235, 255, 225);
     width: 100%;
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-}
-.featuresSection .titleAndCaption h2{
-    font-size: 3em;
-    margin: 0px 0px 24px 0px;
-}
-.featuresSection .titleAndCaption p{
-    margin: 0px 0px 24px 0px;
-    color: #414141;
-}
-
-.featuresGridList{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    column-gap: 80px;
-}
-
-.featuresBanner{
-    margin-top: 20px;
-    margin-bottom: 48px;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    max-width: 373px;
     text-align: center;
+    align-items: center;
 }
 
-.featuresBanner h3{
-    font-size: 1.5em;
-    margin-bottom: 12px;
-    font-weight: 400;
-    margin-top: 0px;
+.designFreedomSection .content{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
 }
-
-.featuresBanner p{
-    font-size: 1em;
-    color: #575757;
-    line-height: 1.6em;
-}
-
-.featuresBanner img{
-    max-width: 373px;
+.designFreedomSection img{
+    margin: 20px 50px 96px 50px;
+    object-fit: contain;
+    width: 100%;
     height: auto;
+}
+.designFreedomSection .titleAndCaption h1{
+    font-size: 3em;
+}
+.designFreedomSection .titleAndCaption h2{
+    font-size: 2em;
+}
+.designFreedomSection p{
+    color: #575757;
+    font-size: 1.125em;
+}
+
+.designFreedomSection .grid{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    column-gap: 40px;
+    align-items: stretch;
+    height: max-content;
+}
+.designFreedomSection .grid .featuresBanner{
+    margin: 0px 50px 0px 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.designFreedomSection .grid .featuresBanner img {
     margin-bottom: 32px;
 }
+.designFreedomSection .grid .featuresBanner h3 {
+    line-height: 32px;
+    font-size: 1.5em;
+}
 
-/* ========================= second section - Square Bird section */
 
-.websiteCategories{
-    padding: 124px 0px 64px 0px;
+/* ========================= second section - features grid */
+
+.featuresGrid{
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    justify-items: center;
+    justify-content: center;
+    column-gap: 40px;
+    padding: 96px 30px 96px 30px;
+}
+.iconBanner{
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    width: 33%;
     text-align: center;
 }
-
-.websiteCategories h1{
-    font-size: 3em;
+.iconBanner .titleAndCaption h2{
+    font-size: 1.5em;
+    margin: 24px 0px 12px 0px;
 }
-
-.websiteCategories p{
-    font-size: 1.125em;
-    color: #414141;
+.iconBanner .titleAndCaption p{
+    font-size: 1.5em;
+    font-size: 1em;
+    color: #575757;
+    line-height: 30px;
+    margin-bottom: 20px;
 }
-.listOfCategories{
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-}
-.category{
-    margin: 8px 8px 8px 10px;
-    text-decoration: none;
+.iconBanner .titleAndCaption span{
+    text-decoration: underline;
     color: #282828;
+    font-size: 1.125em;
 }
-
-.listOfCategories .roundedCornerBorderButton{
-    border-color: #dfdfdf;
-}
-
-.demo-banner-5{
-    margin-bottom: -100px;
-    z-index: 2;
-}
-/* ========================= first section - Square Bird section */
+/* ========================= first section - initial banner section */
 
 .initialBannerSection{
     display: flex;
@@ -407,7 +371,7 @@
 
 .initialBannerDescription{
     flex-grow: 1;
-    background-color: #FFE979;
+    background-color: #b7f598;
     display: block;
     padding: 96px 72px 96px 72px;
 }
@@ -416,6 +380,9 @@
 .initialBannerDescription p{
     color: #282828;
     font-size: 1.125em;
+    line-height: 30px;
+    margin-bottom: 32px;
+    margin-right: 38px;
 }
 
 .initialBannerDescription h1{

@@ -229,6 +229,7 @@ border: none;
 
 .header a{
     text-decoration: none;
+    color: black;
 }
 
 .header a:visited{
