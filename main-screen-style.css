@@ -305,18 +305,18 @@
 
 .thripleBannerSection{
     margin-top: 64px;
-    margin-bottom: 64px;
+    margin-bottom: 128px;
     display: flex;
     flex-direction: row;
-    justify-content: end;
-    align-items: end;
-    height: 550px;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: stretch;
 }
 
 .verticalBanner{
     border-radius: 5px;
     width: 33%;
-    height: 530;
+    /* height: 530; */
     margin: 0px 12px 0px 12px;
     padding: 48px 56px 48px 56px;
     display: flex;
@@ -330,7 +330,8 @@
 }
 
 .verticalBanner:hover{
-    height: 550px;
+    /* height: 550px; */
+    transform: scale(1.05);
     margin-bottom: 5px;
     width: 34%;
     margin-right: 6px;
