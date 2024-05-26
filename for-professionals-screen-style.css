@@ -1,0 +1,335 @@
+
+
+
+.buyAvadaSection{
+    background-color: rgb(126, 213, 240);
+}
+
+
+/* ========================= sixth section - faq section */
+
+.faqSection{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 124px 30px 124px 30px;
+}
+.faqSection h1{
+    margin-bottom: 48px;
+}
+
+.faqQuestionCard{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 80%;
+    justify-content: center;
+    border-bottom-color: #F1F1F1;
+    border-bottom-width: 1;
+    border-bottom-style: solid;
+}
+.faqQuestionCard:hover{
+    border-bottom-color: #DFDFDF;
+}
+
+.faqQuestionCard:hover i{
+    color: #65BA3B;
+}
+.faqTitle{
+    flex-grow: 1;
+    font-size: 1.5em;
+}
+/* ========================= fifth section - website for future Section */
+
+.webSiteForFuture{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 20px 25px 32px 25px;
+    width: 60%;
+}
+
+.webSiteForFuture h2{
+    font-size: 3em;
+}
+
+.webSiteForFuture p{
+    font-size: 1.125em;
+    color: #575757;
+    line-height: 30px;
+}
+
+
+/* ========================= forth section - avada studio Section */
+.avadaStudio{
+    background-color: rgb(235, 250, 255);
+    width: 100%;
+}
+.avadaStudio .content{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 48px 0px 48px;
+    width: 100%;
+}
+
+.avadaStudio .caption{
+    min-width: 30%;
+    max-width: 45%;
+}
+.avadaStudio .caption .titleAndCaption{
+    text-align: left;
+    align-items: center;
+    justify-content: center;
+}
+.avadaStudio .caption .titleAndCaption h2{
+    font-size: 3em;
+}
+.avadaStudio .caption .titleAndCaption p{
+    font-size: 1.125em;
+    color: #575757;
+    line-height: 30px;
+}
+.avadaStudio .picture{
+    height: auto;
+    width: 50%;
+    margin-left: 50px;
+}
+.avadaStudio .picture img{
+    width: 100%;
+}
+
+
+/* ========================= third section - accelerate your workflow */
+.accelerateYourWorkflow{
+    background-color: rgb(235, 250, 255);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.accelerateYourWorkflow .content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+}
+.accelerateYourWorkflow .content .titleAndCaption p{
+    font-size: 1.125em;
+    color: #575757;
+}
+.accelerateYourWorkflow .content .titleAndCaption h1{
+    font-size: 3em;
+}
+
+
+.featuresGridList{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    column-gap: 80px;
+}
+
+.featuresBanner{
+    margin-top: 20px;
+    margin-bottom: 48px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 373px;
+    text-align: center;
+}
+
+.featuresBanner h3{
+    font-size: 1.5em;
+    margin-bottom: 12px;
+    font-weight: 400;
+    margin-top: 0px;
+}
+
+.featuresBanner p{
+    font-size: 1em;
+    color: #575757;
+    line-height: 1.6em;
+}
+
+.featuresBanner img{
+    max-width: 373px;
+    height: auto;
+    margin-bottom: 32px;
+}
+.builderSampleImagesSection{
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 48px;
+}
+.builderSampleImagesSection .logo{
+    width: 10%;
+    height: auto;
+}
+.builderSampleImagesSection p{
+    font-size: 1.125em;
+    color: #575757;
+    margin-bottom: 48px;
+}
+.builderSampleImagesSection h1{
+    font-size: 2em;
+    margin-bottom: 68px;
+}
+.builderImagesList{
+    display: flex;
+    align-items: start;
+}
+.builderImagesList .list{
+    flex-grow: 1;
+}
+.builderImagesList .list a{
+    display: flex;
+    text-decoration: none;
+    color: black;
+}
+
+.builderImagesList .list{
+    padding-inline-start: 0%;
+    margin-right: 3%;
+}
+
+.builderImagesList .list li{
+    display: flex;
+    text-decoration: none;
+    color: black;
+    list-style-type: none;
+    font-size: 1.25em;
+}
+
+.builderImagesList .list i{
+    margin-right: 12px;
+}
+
+
+
+.builderImagesList .listItem{
+    padding: 13px 24px 13px 24px;
+    margin-bottom: 24px;
+    flex-grow: 1;
+}
+
+.builderImagesList .listItem:hover{
+    background-color: #F6F6F6;
+
+}
+
+.layoutBuilderImage{
+    width: 75%;
+    max-width: 100%;
+    height: auto;
+    object-fit: contain;
+    vertical-align: top;
+}
+
+/* ========================= second section - features grid */
+
+.featuresGrid{
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    justify-items: center;
+    justify-content: center;
+    column-gap: 40px;
+    padding: 96px 30px 96px 30px;
+}
+.iconBanner{
+    display: flex;
+    flex-direction: column;
+    width: 33%;
+    text-align: center;
+}
+.iconBanner .titleAndCaption h2{
+    font-size: 1.5em;
+    margin: 24px 0px 12px 0px;
+}
+.iconBanner .titleAndCaption p{
+    font-size: 1.5em;
+    font-size: 1em;
+    color: #575757;
+    line-height: 30px;
+    margin-bottom: 20px;
+}
+.iconBanner .titleAndCaption span{
+    text-decoration: underline;
+    color: #282828;
+    font-size: 1.125em;
+}
+
+
+/* ========================= first section - initial banner section */
+
+.initialBannerSection{
+    display: flex;
+    flex-direction: row;
+}
+
+
+.initialBannerSection img{
+    width: 45%;
+    object-fit: cover;
+}
+
+.initialBannerDescription h4{
+    font-size: 1.25em;
+    margin: 0%;
+}
+
+.initialBannerDescription{
+    flex-grow: 1;
+    background-color: #7ed5f0;
+    display: block;
+    padding: 96px 72px 96px 72px;
+}
+
+
+.initialBannerDescription p{
+    color: #282828;
+    font-size: 1.125em;
+    line-height: 30px;
+    margin-bottom: 32px;
+    margin-right: 38px;
+}
+
+.initialBannerDescription h1{
+    color: #282828;
+    font-size: 4em;
+    line-height: 72px;
+}
+
+.initialBannerDescription a{
+    color: white;
+    text-decoration: none;
+    font-size: 1.25em;
+    display: flex;
+    flex-direction: row;
+    width: fit-content;
+    margin-bottom: 32px;
+    margin-right: 23px;
+}
+.initialBannerDescription i{
+    margin-left: 12px;
+}
+.initialBannerDescription .preTitle{
+    font-size: 1.25em;
+}
+
+
+
+
+.initialBannerDescription .roundedCornerBorderButton{
+    background-color: #282828;
+}
